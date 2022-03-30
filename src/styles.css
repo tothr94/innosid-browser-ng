@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.list-group-item-action {
+  cursor: pointer;
+}
+
+html, body {
+  height: 100vh;
+}
+
+.list-group-item-action.active {
+  background-color: lightcyan !important;
+}
